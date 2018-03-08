@@ -1,0 +1,270 @@
+.owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0,0,0);
+}
+.owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  -moz-backface-visibility: hidden;
+}
+.owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-drag .owl-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.owl-carousel .owl-item {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+.owl-nav {
+  > div {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    background-image: url("../img/prev.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -50px;
+    overflow: hidden;
+    &.owl-next{
+      background-image: url("../img/next.png");
+      left: auto;
+      right: -20px;
+    }
+  }
+}
+.position-relative{
+  position: relative;
+}
+.owl-carousel .owl-item {
+  padding: 0 15px;
+}
+.home-selction{
+  padding-top: 80px;
+  padding-bottom: 32px;
+}
+.destination-title{
+  margin: 0;
+  padding: 0 0 30px 0;
+  letter-spacing: initial;
+  font-size: 26px;
+  text-transform: none;
+}
+.home-selction-promotions{
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+.promotions-slider{
+  .promotions-item-inner{
+    border: 1px solid #b8b8b8;
+    .imgLodBg{
+      height: 237px;
+      img {
+        max-height: 237px;
+      }
+    }
+    .promotions-item-desc{
+      padding: 15px 26px 23px;
+      h4 {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: none;
+        padding-bottom: 0;
+        margin: 10px 0 3px;
+      }
+      .promotions-stop{
+        color: $brand-primary;
+        padding: 5px 0 5px;
+        display: block;
+        font-size: 12px;
+      }
+      .desc{
+        font-size: 16px;
+        padding-bottom: 12px;
+        p {
+          margin: 0;
+        }
+      }
+      .promotions-footer{
+        @include display-flex;
+        @include justify-content(space-between);
+        @include align-items;
+        .promotions-price{
+          font-size: 28px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+      .more-detail{
+        background: $brand-primary;
+        border: 0;
+        padding: 7px 15px;
+        font-size: 14px;
+        &:hover,
+        &:focus,
+        &:active {
+          background: $brand-primary-hover;
+        }
+      }
+    }
+  }
+  .owl-item {
+    padding: 0 15px;
+  }
+}
+.owl-item {
+  margin-bottom: 0;
+}
+
+// offers-wapper
+.offers-wapper{
+  padding:0;
+  margin: 30px 0;
+  background-image: url("../img/bg_off.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .offers-image{
+    position: absolute;
+    width: 575px;
+    height: 427px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    left: 15px;
+    bottom: -45px;
+    #offers-icon-play{
+      width: 77px;
+      height: 77px;
+      background-image: url("../img/icons/play-video.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin: -33.5px 0 0 -33.5px;
+      z-index: 9;
+      display: block;
+      cursor: pointer;
+    }
+    #offers-video {
+      opacity: 0;
+      @include transition(all 0.2s ease 0s);
+    }
+    &.play-video{
+      &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: $black;
+      }
+      #offers-icon-play{
+        display: none;
+      }
+      #offers-video {
+        opacity: 1;
+      }
+    }
+    #offers-video{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .offers-content{
+    color: $white;
+    text-align: right;
+    padding: 66px 0 40px;
+    h3 {
+      font-size: 30px;
+      letter-spacing: 0.3px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    .big-save{
+      color: $brand-primary;
+      span{
+        font-size: 32.4px;
+      }
+      strong {
+        font-size: 71.2px;
+        line-height: 1.1;
+        letter-spacing: 6px;
+      }
+    }
+    .desc{
+      font-size: 20px;
+      padding: 18px 0 72px 23%;
+      line-height: 1.8;
+      p {
+        margin: 0;
+      }
+    }
+    .btn-offers{
+      font-size: 16px;
+      font-weight: bold;
+      background: $brand-primary;
+      text-decoration: none;
+      padding: 16px 50px;
+      color: $white;
+      display: inline-block;
+      &:hover{
+        background: $brand-primary-hover;
+      }
+    }
+  }
+}
+.why-choose-us{
+  padding: 30px 0 45px;
+  background: #e1e3e5;
+  .choose-us-title{
+    font-size: 34.95px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 18px 0 8px 0;
+  }
+}
+.why-choose-us-slide{
+  position: relative;
+  .owl-dots,
+  .owl-nav{
+    display: none;
+  }
+  .why-choose-slide-item{
+    text-align: center;
+    padding: 0 25px;
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+      padding: 18px 0 0 0;
+    }
+  }
+}
+.flights-home{
+  padding: 30px 0 71px;
+  .owl-nav{
+    display: none;
+  }
+}

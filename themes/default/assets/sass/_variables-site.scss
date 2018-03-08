@@ -1,0 +1,63 @@
+$white:                  #fff;
+$black:                  #000;
+$black01:                #1a1a1a;
+$black02:                #4d4d4d;
+$black-light:            #060606;
+$gray:                   #989898;
+$gray-light:             #f6f6f8;
+$gray-light02:           #e2e2e2;
+$gray-light03:           #b2b2b2;
+$gray-dark:              #cbcbcb;
+$gray-dark02:            #8d8d8d;
+$gray-dark03:            #333333;
+$gray-dark04:            #6e6e6e;
+$gray-dark05:            #808080;
+$brand-primary:          #70be54;
+$brand-primary-hover:    darken($brand-primary,15%);
+$greyish:                #7c7c7c;
+$css:                    #4fa3dc;
+$html:                   #e76a4a;
+$jQuery:                 #96c96d;
+$wordpress:              #45bbe6;
+$rt-btn:                 #5ea207;
+$rt-btn-hover:           darken($rt-btn,5%);
+
+
+$font-family-base:       'Roboto', sans-serif;
+$color-text-base:        #333333;
+
+$font-weight-light:       300;
+$font-weight-base:        400;
+$font-weight-medium:      500;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-extra:       800;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            23px !default;
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            17px !default;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        24px !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    20px !default; // ~20px
+
+//** Background color for `<body>`.
+$body-bg:               #f1f4f9 !default;
+
+//** Global text color on `<body>`.
+$text-color:            #333333 !default;
+
+//** Global textual link color.
+$link-color:            #70be54 !default;
+
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+$link-color-hover:      $brand-primary;

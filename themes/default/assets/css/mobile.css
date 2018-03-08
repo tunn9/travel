@@ -1,0 +1,85 @@
+@media only screen and (max-width:770px){body{background-color:#fff;}
+.select2-drop-active{width:100% !important;left:0px !important;top:0px !important;bottom:0px !important;position:fixed !important;padding:15px 5px 0 5px !important}
+.home-bg-img{height:475px !important;}
+.home-bg-img{min-height:100vh !important;}
+.search-section{top:55px;}
+.slider_main_home{position:static !important;}
+.datepicker.dropdown-menu{position:fixed;left:0px !important;width:100% !important;top:0px !important;height:100vh;}
+.datepicker.dropdown-menu th, .datepicker.datepicker-inline th, .datepicker.dropdown-menu td, .datepicker.datepicker-inline td{padding:20px 4px;}
+.navbar-nav{margin:0px 0px;}
+.datepicker:after{border-bottom:0px;}
+.modal-content{height:100vh;}
+.modal-dialog{width:100%;margin:0px;}
+.modal-content{border:0px solid rgba(0,0,0,.2) !important;border-radius:0px !important;}
+.search-section{margin-top:-55px !important;}
+.mobfix{padding-right:0px;padding-left:0px;}
+.main-background{box-shadow:none !important;}
+.nav-tabs.nav-justified{width:100% !important;border-bottom:0;}
+.h1, .h2, .h3, h4, h5, h6{margin-top:5px;margin-bottom:10px;}
+.mt-16{margin-top:-16px;}
+.bb{position:fixed;bottom:0;width:100%;left:0;}
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a{padding:5px 15px 5px 25px;}
+.navbar-form{padding:10px 5px;margin-top:14px;margin-right:-15px;margin-bottom:-13px;}
+.dropdown{width:100%;}
+.nav>li>a{position:relative;display:block;width:100%;font-size:12px;}
+.datepicker.dropdown-menu{position:fixed;left:0px !important;width:100% !important;top:0px !important;height:100vh;}
+.datepicker.dropdown-menu th, .datepicker.datepicker-inline th, .datepicker.dropdown-menu td, .datepicker.datepicker-inline td{padding:20px 4px;}
+.datepicker:after{border-bottom:0px;}
+.datepicker table thead tr{height:50px;}
+.datepicker table{height:450px;}
+.select2-results{height:100% !important;max-height:100% !important;}
+.searchground{padding:20px 0 0 0;background:rgba(255, 255, 255, 0.6);}
+.searchbg{color:#000;}
+.search-box-with{width:100%;}
+.select2-drop-active{margin-top:0px !important;}
+.searchground{box-shadow:none !important;-webkit-box-shadow:!important none;-moz-box-shadow:!important none;}
+.ellipsisFIX{white-space:nowrap !important;overflow:hidden !important;text-overflow:ellipsis !important;width:100%;float:none !important;display:inline-block !important;}
+body{font-size:16px !important;}
+.form{font-size:16px !important;}
+.mob-mt{margin-top:0px !important;}
+.mob-fs10{font-size:10px !important;}
+.mob-fs14{font-size:14px !important;}
+.mob-fs18{font-size:18px !important;}
+.mob-text-left{float:left}
+.rooms-book-button{margin-top:4px !important;margin-bottom:3px !important;}
+.p0{padding:0px !important}
+.mob_w100p{width:100%;}
+.modal-content{height:100vh;}
+.modal-dialog{margin:0px !important;}
+.bb{position:fixed;bottom:0;width:100%;left:0;}
+.modal-footer{background-color:transparent;padding:15px;text-align:right;border-top:1px solid transparent;}
+.img_list img{margin-top:-22px;}
+@media (max-width:992px){.mob-hotel-padding{padding:0 5px !important;}
+.distance{margin:0;}
+.mobile_filter_menu{padding-right:15px !important;position:absolute;background:#fff;z-index:1000;top:0;padding:15px;margin-top:0;left:-100%;transition:all 0.3s;width:100%;padding-bottom:58px;}
+.mobile_filter_target{color:#fff !important;text-decoration:none !important;}
+#mobile_filter_menu:target{left:0;}
+}
+.img_list{min-height:110px;}
+.img_list img{height:100px;}
+.labelright .text-success{padding:10px 0px 0px 0px;}
+.pl15pr0{padding-left:0;padding-top:8px;}
+.review{margin-top:6px;padding:2px;border-top:none;border-bottom:none;font-size:16px;}
+.list_title{font-size:14px;margin-bottom:5px;}
+.btn-action{background:#4611a7;color:#ffffff;padding:6px;font-size:13px;border-radius:3px;text-align:center;cursor:pointer;}
+.pagination-margin{margin-bottom:0px;}
+.fotorama__nav--thumbs{display:none !important}
+.mob-row{padding-right:0px !important;padding-left:0px !important;}
+.mt-15{margin-top:-15px;}
+.avgprice{top:-1px;left:0px;}
+.p0{padding:0px;}
+.fotorama__stage{height:188px !important;}
+.check_dates{color:#dd3467;}
+.mt-5{margin-top:-5px;}
+.desc-scroll{padding-left:2px;max-height:100%;overflow-y:hidden;padding-right:10px;}
+.flight-result-grid .layover{margin:0 20% 0 12%;}
+.flight-price-grid strong{font-size:16px;line-height:15px;margin-bottom:10px;}
+.flight-price-grid button{width:100%;background:#3b3b3b;font-size:12px;}
+.flight-price-grid{padding-top:10px;}
+.trip-title small{width:200px;}
+.flight-result-grid .layover-bottom{border-top:1px solid #dbdbdb;margin-top:26px;padding-top:5px;position:relative;}
+.flight-result-grid .available-seat button{border:1px solid #ccc;color:#194e91;cursor:pointer;margin:51px 0px -1px -20px;}
+.flight-result-grid{border-bottom:0px solid #ddd;border-top:0px solid #ddd;}
+.trip-check .col-md-2{width:40% !important;}
+.dropdown-menu{overflow-y:scroll;max-height:230px;}
+}

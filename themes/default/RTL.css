@@ -1,0 +1,81 @@
+ body { font-size:14px !important;font-family:Tahoma; }
+
+.img-rtl { -webkit-transform: rotateY(180deg); /* Safari */  transform: rotateY(180deg); /* Standard syntax */ }
+.go-right { float: right !important; }
+.go-left { float: left !important; }
+.go-text-left { text-align: left !important; }
+.go-text-right { text-align: right !important; }
+
+input { direction:RTL }
+::-webkit-input-placeholder { direction: rtl; }
+:-moz-placeholder { direction: rtl; }
+::-moz-placeholder { direction: rtl; }
+:-ms-input-placeholder { direction: rtl; }
+
+.location-icon::-webkit-input-placeholder:before { content : " \f041" ; }
+.calender-icon::-webkit-input-placeholder:before { content : " \f073" ; }
+.search-icon:after { font: normal normal normal 14px/1 FontAwesome; content : " \f002" ; }
+.search-icon:before { display: none !important }
+
+.panel-title { direction:RTL }
+.RTL { direction:RTL }
+#rtl-menu { right:8% !important; }
+.rt-menu-caption { margin-left:-85px }
+ 
+.dropdownjs > ul > li {  text-align: right !important; }
+.navbar .navbar-form .form-control-wrapper .form-control, .navbar .navbar-form .form-control { text-align: left !important; }
+.account { margin-right:0px}
+.pr0 { padding-right: 15px;padding-left: 0px; }
+.pdr0 { padding-right:0px }
+
+.tour_list_desc {  border-right: 0px solid #ededed !important; }
+.main-title { margin-bottom:10px !important; }
+.RTL_Bar { padding-left: 0px !important;padding-right:0px !important; }
+.smallblacklabel { right:0px !important; left: 190px !important;}
+.labelright { border-right: 1px solid #e8e8e8; border-left: 0px !important; }
+.mega-dropdown { left : 240px !important; }
+
+/* Homepage */
+.searchInput { padding-right: 30px; }
+.locaicon { right: 12px !important; }
+input.qty2 { left : 0px !important; }
+/*@media (min-width:540px) and (max-width:991px){.featured .load {margin-right: 0;margin-left: 33%;}}*/
+@media (max-width: 768px){.navbar-right {float: none !important; }}
+/* Homepage */
+
+/* Listing page */
+.sideline {  border-right: solid 1px #e7e7e7; border-left: solid 0px #e7e7e7 !important; }
+.offset-RTL { padding-left: 0px !important; padding-right: 0px !important; }
+.pl15pr0 { padding-left: 0px; padding-right: 15px; }
+.collapsebtn span.collapsearrow { float: left; }
+.collapsebtn.collapsed span.collapsearrow { float: left; }
+.rightcontent{float: left !important;}
+@media (max-width:991px){.pl15pr0 {padding-right: 0;}.rtl_width{width: 100%}}
+/* Listing page */
+
+/* header */
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand { margin-left: 0px; }
+/* header */
+
+/****** FIX ******/
+.flafFIX {margin-left: 4px; margin-top: 4px;}
+/****** FIX ******/
+
+/* Home Search */
+.form{padding-right:40px;padding-left:10px;}
+.iconspane-lg { position: absolute; font-size: 19px; padding: 6px 20px 0px 0px; color: black; right: 0px; }
+.tab_styling{float:right;}
+.currency_btn{float:none !important;}
+.car_tab{padding-right: 0;}
+.select2-container .select2-choice > .select2-chosen {margin-right: 45px; }
+.select2-container .select2-choice .select2-arrow { right: 1px; left: 0px; }
+
+@media (max-width: 770px){.navbar-header{width: 100% !important;float: none !important;}
+
+
+/* Home Search */
+.about_rtl{margin-right: 35px;}
+.about_title{text-align: right;margin-right: 40px;}
+.title_rtl{text-align: right;}
+
+.destination-title-home { padding: 10px 30px 0 28px !important; }
